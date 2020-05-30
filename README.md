@@ -35,7 +35,8 @@ num_joint_returns: Total number of returns with a filing status of "married, fil
 
 num_head_of_household_returns: Total number of returns with a filing status of "head of household."
 
-num_paid_preparer_returns: Total number of returns with a paid preparer's signature.\
+num_paid_preparer_returns: Total number of returns with a paid preparer's signature.
+
 &nbsp;&nbsp;&nbsp;&nbsp;Returns prepared by tax stores and accountants have paid preparer's signatures.\
 &nbsp;&nbsp;&nbsp;&nbsp;Returns prepared by hand or by tax software do not have paid preparer's signatures.
     
