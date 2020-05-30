@@ -15,7 +15,9 @@ This data is public data released by the IRS about personal income taxes filed d
 The columns are defined here:
 
 STATE: 2 letter state abbreviation.
+
 zipcode: 5 digit ZIP code. If this is 0, the row refers to the whole state.
+
 agi_stub: A categorical of 1-6, indicating the "adjusted gross income" bracket represented by the row: 
     1 = $1 under $25,000
     2 = $25,000 under $50,000
@@ -23,17 +25,27 @@ agi_stub: A categorical of 1-6, indicating the "adjusted gross income" bracket r
     4 = $75,000 under $100,000
     5 = $100,000 under $200,000
     6 = $200,000 or more
+    
 num_returns: The total number of returns represented by this row.
+
 num_single_returns: Total number of returns with a filing status of "single."
+
 num_joint_returns: Total number of returns with a filing status of "married, filing jointly."
+
 num_head_of_household_returns: Total number of returns with a filing status of "head of household."
+
 num_paid_preparer_returns: Total number of returns with a paid preparer's signature.
     Returns prepared by tax stores and accountants have paid preparer's signatures.
     Returns prepared by hand or by tax software do not have paid preparer's signatures.
+    
 num_exemptions: Summed total number of exemptions claimed on form 1040, line 6D.
+
 num_dependents: Summed total number of dependents claimed on forms 1040, line 6C.
+
 amount_agi: Summed total adjusted gross income claimed on forms 1040, line 37; 1040A, line 21; 1040EZ line 4.
+
 num_returns_with_refunds: Total number of returns that claim refunds of overpayment on forms 1040, line 73; 1040A, line 42; 1040EZ, line 11A.
+
 amount_refunds: Summed total amount of overpayments refunded.
 
 ## acs_population_demographics.csv
