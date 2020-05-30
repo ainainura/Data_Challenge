@@ -2,13 +2,13 @@
 
 Two different datasets are given to be analyzed - IRS public dataset and US Census dataset. 
 
-## Goal
+### Goal
 
 The goal here is to explore both datasets, find interesting trends, and create some cohesive stories. Data visualization is used in order to support results and conclusions. 
 
 Description of the datasets: 
 
-## irs_public_data.csv:
+### irs_public_data.csv:
 
 This data is public data released by the IRS about personal income taxes filed during the 2013 tax year.
  
@@ -50,7 +50,7 @@ num_returns_with_refunds: Total number of returns that claim refunds of overpaym
 
 amount_refunds: Summed total amount of overpayments refunded.
 
-## acs_population_demographics.csv
+### acs_population_demographics.csv
 
 This is a simplified dataset released by the American Community Survey (part of the US Census) showing detailed estimates of the age and sex breakdown of the population by ZCTA (ZIP code tabulation area), a rough equivalent of zip code.
 
