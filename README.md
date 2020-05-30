@@ -19,12 +19,12 @@ STATE: 2 letter state abbreviation.
 zipcode: 5 digit ZIP code. If this is 0, the row refers to the whole state.
 
 agi_stub: A categorical of 1-6, indicating the "adjusted gross income" bracket represented by the row: 
-    1 = $1 under $25,000
-    2 = $25,000 under $50,000
-    3 = $50,000 under $75,000
-    4 = $75,000 under $100,000
-    5 = $100,000 under $200,000
-    6 = $200,000 or more
+&nbsp;&nbsp;&nbsp;&nbsp;1 = $1 under $25,000
+&nbsp;&nbsp;&nbsp;&nbsp;2 = $25,000 under $50,000
+&nbsp;&nbsp;&nbsp;&nbsp;3 = $50,000 under $75,000
+&nbsp;&nbsp;&nbsp;&nbsp;4 = $75,000 under $100,000
+&nbsp;&nbsp;&nbsp;&nbsp;5 = $100,000 under $200,000
+&nbsp;&nbsp;&nbsp;&nbsp;6 = $200,000 or more
     
 num_returns: The total number of returns represented by this row.
 
@@ -35,8 +35,8 @@ num_joint_returns: Total number of returns with a filing status of "married, fil
 num_head_of_household_returns: Total number of returns with a filing status of "head of household."
 
 num_paid_preparer_returns: Total number of returns with a paid preparer's signature.
-    Returns prepared by tax stores and accountants have paid preparer's signatures.
-    Returns prepared by hand or by tax software do not have paid preparer's signatures.
+&nbsp;&nbsp;&nbsp;&nbsp;Returns prepared by tax stores and accountants have paid preparer's signatures.
+&nbsp;&nbsp;&nbsp;&nbsp;Returns prepared by hand or by tax software do not have paid preparer's signatures.
     
 num_exemptions: Summed total number of exemptions claimed on form 1040, line 6D.
 
